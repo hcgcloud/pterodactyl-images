@@ -1,7 +1,7 @@
-# game_vcmp
-Image for VCMP
+# ubuntu_base
+Ubuntu base image
 
 ## Image
 ```
-hcgcloud/pterodactyl-images:game_vcmp
+hcgcloud/pterodactyl-images:ubuntu_base
 ```
