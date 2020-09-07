@@ -2,6 +2,8 @@ FROM        ubuntu:latest
 
 MAINTAINER  HCGCLOUD, <service@hcgcloud.com>
 
+ENV DEBIAN_FRONTEND noninteractive
+
 RUN         apt update \
             && apt upgrade -y \
             && apt install -y libstdc++6 lib32stdc++6 curl iproute2 openssl \
