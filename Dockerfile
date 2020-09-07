@@ -2,6 +2,8 @@ FROM        ubuntu:latest
 
 MAINTAINER  HCGCLOUD, <service@hcgcloud.com>
 
+ENV DEBIAN_FRONTEND noninteractive
+
 # Install Dependencies
 RUN         dpkg --add-architecture i386 && \
             apt update && \
